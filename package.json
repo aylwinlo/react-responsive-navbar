@@ -1,13 +1,12 @@
 {
   "name": "react-responsive-navbar",
   "version": "1.0.11",
-  "description":
-    "A simple, flexible & completely customisable responsive navigation bar react component",
+  "description": "A simple, flexible & completely customisable responsive navigation bar react component",
   "author": "Stephanie Tassone",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git@github.com:stephanieinez/react-responsive-navbar.git"
+    "url": "git@github.com:aylwinlo/react-responsive-navbar.git"
   },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -21,7 +20,7 @@
     "deploy": "gh-pages -d example/build"
   },
   "dependencies": {
-    "styled-components": "^2.2.4"
+    "styled-components": "3.3.2"
   },
   "peerDependencies": {
     "prop-types": "^15.5.4",
@@ -42,5 +41,7 @@
     "rollup-plugin-node-resolve": "^3.0.0",
     "rollup-plugin-postcss": "^0.5.5"
   },
-  "files": ["dist"]
+  "files": [
+    "dist"
+  ]
 }
