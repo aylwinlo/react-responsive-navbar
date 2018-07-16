@@ -224,8 +224,8 @@ var taggedTemplateLiteral = function (strings, raw) {
   }));
 };
 
-var _templateObject = taggedTemplateLiteral(['\n  display: none;\n  text-align: center;\n  @media (max-width: ', ') {\n    display: block;\n  }\n'], ['\n  display: none;\n  text-align: center;\n  @media (max-width: ', ') {\n    display: block;\n  }\n']);
-var _templateObject2 = taggedTemplateLiteral(['\n  display: block;\n  text-align: center;\n  @media (max-width: ', ') {\n    display: none;\n  }\n'], ['\n  display: block;\n  text-align: center;\n  @media (max-width: ', ') {\n    display: none;\n  }\n']);
+var _templateObject = taggedTemplateLiteral(['\n  background-color: #009f50;\n  display: none;\n  text-align: center;\n  @media (max-width: ', ') {\n    display: block;\n  }\n'], ['\n  background-color: #009f50;\n  display: none;\n  text-align: center;\n  @media (max-width: ', ') {\n    display: block;\n  }\n']);
+var _templateObject2 = taggedTemplateLiteral(['\n  background-color: #009f50;\n  display: block;\n  text-align: center;\n  @media (max-width: ', ') {\n    display: none;\n  }\n'], ['\n  background-color: #009f50;\n  display: block;\n  text-align: center;\n  @media (max-width: ', ') {\n    display: none;\n  }\n']);
 
 var SmallMenu = styled.div(_templateObject, function (props) {
   return props.size;
