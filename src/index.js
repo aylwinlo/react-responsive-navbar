@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const SmallMenu = styled.div`
+  background-color: #009f50;
   display: none;
   text-align: center;
   @media (max-width: ${props => props.size}) {
@@ -11,6 +12,7 @@ const SmallMenu = styled.div`
 `;
 
 const LargeMenu = styled.div`
+  background-color: #009f50;
   display: block;
   text-align: center;
   @media (max-width: ${props => props.size}) {
